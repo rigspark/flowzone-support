@@ -1,43 +1,133 @@
-# FlowZone support
+<div align="center">
 
-Ideas, bug reports and missed AI channels for **FlowZone**, the Chrome extension that gives you a calmer YouTube: it hides videos YouTube labels as AI, channels that keep posting them, and Shorts.
+<img src="assets/logo.png" width="96" height="96" alt="FlowZone logo">
 
-[**Install FlowZone from the Chrome Web Store**](https://chromewebstore.google.com/detail/flowzone-hide-ai-videos-s/fmlncjabpaccinmoijekhnccfdgmejde)
+# FlowZone
 
-This repo is where you tell us what to build next. Everything here is public, so anyone can upvote an idea with a 👍 or add to it.
+**Your OG YouTube, back.** Hides AI videos, AI channels and Shorts.
 
-## How to help
+[![Chrome Web Store version](https://img.shields.io/chrome-web-store/v/fmlncjabpaccinmoijekhnccfdgmejde?label=Chrome%20Web%20Store&color=4285F4)](https://chromewebstore.google.com/detail/flowzone-hide-ai-videos-s/fmlncjabpaccinmoijekhnccfdgmejde)
+[![Users](https://img.shields.io/chrome-web-store/users/fmlncjabpaccinmoijekhnccfdgmejde?label=users&color=555)](https://chromewebstore.google.com/detail/flowzone-hide-ai-videos-s/fmlncjabpaccinmoijekhnccfdgmejde)
+[![Rating](https://img.shields.io/chrome-web-store/rating/fmlncjabpaccinmoijekhnccfdgmejde?label=rating&color=555)](https://chromewebstore.google.com/detail/flowzone-hide-ai-videos-s/fmlncjabpaccinmoijekhnccfdgmejde)
+[![MIT License](https://img.shields.io/badge/license-MIT-555)](LICENSE)
 
-| You want to… | Open |
-| --- | --- |
-| Suggest a feature or change | [Feature request](https://github.com/rigspark/flowzone-support/issues/new?template=feature_request.yml) |
-| Report something that's broken | [Bug report](https://github.com/rigspark/flowzone-support/issues/new?template=bug_report.yml) |
-| Report an AI channel FlowZone misses, or a real creator it hides by mistake | [Channel report](https://github.com/rigspark/flowzone-support/issues/new?template=channel_report.yml) |
+<a href="https://chromewebstore.google.com/detail/flowzone-hide-ai-videos-s/fmlncjabpaccinmoijekhnccfdgmejde"><img src="https://img.shields.io/badge/Add_to_Chrome-it's_free-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Add to Chrome, it's free" height="40"></a>
+&nbsp;
+<a href="https://github.com/rigspark/flowzone-support/issues/new?template=feature_request.yml"><img src="https://img.shields.io/badge/Request_a_feature-💡-24292F?style=for-the-badge" alt="Request a feature" height="40"></a>
 
-Before opening a new issue, search the [existing issues](https://github.com/rigspark/flowzone-support/issues?q=is%3Aissue) first. If someone already asked for the same thing, give it a 👍 instead of opening a duplicate: we sort the roadmap by 👍.
+</div>
 
-## What FlowZone does today
+<br>
 
-- **Hide AI videos:** hides videos YouTube itself labels as AI-generated or altered, in your feed, search, the suggestions beside the player and on channel pages.
-- **AI channels disappear:** once a channel has posted two videos YouTube labels as AI, FlowZone hides the rest of that channel too.
-- **Catch unlabelled AI (optional, off by default):** hides videos whose titles name AI video tools such as Sora, Veo, Kling or Seedance, or say they're AI-generated.
-- **Hide Shorts:** removes Shorts shelves, the Shorts tab, the Shorts search filter and Shorts in search, and opens any Shorts link in the normal player.
-- **Hide a channel in one click:** hover any video and press the ⊘ button.
-- **Never hide:** keep channels you trust visible whatever the filters say.
-- **Autoplay guard:** if you land on, or autoplay into, a video FlowZone would hide, it pauses and asks: Go back, or Play anyway.
+<table>
+  <tr>
+    <th width="50%">Before</th>
+    <th width="50%">With FlowZone</th>
+  </tr>
+  <tr>
+    <td><img src="assets/before-feed.png" alt="A YouTube home feed full of AI-labelled videos and a Shorts shelf"></td>
+    <td><img src="assets/after-switches.png" alt="The same feed with FlowZone's two switches on: AI videos and Shorts gone"></td>
+  </tr>
+</table>
 
-## What it can't do (yet)
+## Tell us what to build
 
-FlowZone can only hide what YouTube labels as AI or what you block. YouTube labels realistic AI content, but not most animated AI. It works on youtube.com in Chrome on your computer, not in the YouTube phone or TV apps. It is not an ad blocker.
+Search the [open issues](https://github.com/rigspark/flowzone-support/issues) first. If someone already asked, add a 👍: we build the most-wanted ideas first.
 
-If one of these limits gets in your way, a feature request is exactly the right place to say so.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>💡 Feature request</h3>
+      An idea or a change to how FlowZone works.<br><br>
+      <a href="https://github.com/rigspark/flowzone-support/issues/new?template=feature_request.yml"><b>Suggest an idea →</b></a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>📺 Channel report</h3>
+      An AI channel it misses, or a real creator it hides by mistake.<br><br>
+      <a href="https://github.com/rigspark/flowzone-support/issues/new?template=channel_report.yml"><b>Report a channel →</b></a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🐞 Bug report</h3>
+      Something isn't working as described.<br><br>
+      <a href="https://github.com/rigspark/flowzone-support/issues/new?template=bug_report.yml"><b>Report a bug →</b></a>
+    </td>
+  </tr>
+</table>
 
-## Privacy
+## Roadmap
 
-FlowZone has no accounts, no servers, no analytics and no tracking. Your settings and lists stay in your Chrome profile. Please don't post personal information in issues: everything here is public.
+| 🔥 Most wanted | 🗓️ Planned | ✅ Shipped |
+| --- | --- | --- |
+| [Open requests by 👍](https://github.com/rigspark/flowzone-support/issues?q=is%3Aissue%20is%3Aopen%20sort%3Areactions-%2B1-desc) | [Issues labelled `planned`](https://github.com/rigspark/flowzone-support/issues?q=is%3Aissue%20label%3Aplanned) | [Issues labelled `shipped`](https://github.com/rigspark/flowzone-support/issues?q=is%3Aissue%20label%3Ashipped) |
 
-Read the full [privacy policy](https://www.rigspark.si/flowzone/privacy/).
+## What FlowZone does
 
-## About
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>Hide AI videos</b><br>Anything YouTube labels as AI-generated or altered, in your feed, search, suggestions and channel pages.</td>
+    <td width="33%" valign="top"><b>AI channels disappear</b><br>Once a channel has posted two videos YouTube labels as AI, the rest of it goes too.</td>
+    <td width="33%" valign="top"><b>No Shorts</b><br>Shelves, the Shorts tab, the search filter and Shorts in search. Shorts links open in the normal player.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Autoplay guard</b><br>Land on, or autoplay into, a video FlowZone would hide, and it pauses and asks: Go back, or Play anyway.</td>
+    <td valign="top"><b>One-click hide</b><br>Hover any video and press ⊘ to hide its whole channel. Undo is right there.</td>
+    <td valign="top"><b>Never hide</b><br>Keep the channels you trust visible, whatever the filters say.</td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top"><b>Catch unlabelled AI</b> (optional, off by default): also hides videos whose titles name AI video tools such as Sora, Veo, Kling or Seedance, or say they're AI-generated.</td>
+  </tr>
+</table>
 
-FlowZone is made by [RigSpark](https://www.rigspark.si). See [CONTRIBUTING.md](CONTRIBUTING.md) for how we triage issues. The text and templates in this repo are under the [MIT License](LICENSE).
+<table>
+  <tr>
+    <td width="50%"><img src="assets/autoplay-guard.png" alt="FlowZone pausing an AI video at 3 a.m. with Go back and Play anyway buttons"></td>
+    <td width="50%"><img src="assets/hide-channel.png" alt="Hiding a whole channel with one click, with an Undo button"></td>
+  </tr>
+</table>
+
+## Good to know
+
+<details>
+<summary><b>Why is an AI video still showing?</b></summary>
+<br>
+FlowZone hides what YouTube itself labels as AI, plus channels that keep posting it and any channel you block. YouTube labels realistic AI content, but not most animated AI, so some slips through. Press ⊘ to hide that channel, turn on <b>Catch unlabelled AI</b>, or <a href="https://github.com/rigspark/flowzone-support/issues/new?template=channel_report.yml">report the channel</a>.
+</details>
+
+<details>
+<summary><b>Does it work in the YouTube app or on a TV?</b></summary>
+<br>
+Not yet. FlowZone works on youtube.com in Chrome on your computer. Want it somewhere else? <a href="https://github.com/rigspark/flowzone-support/issues/new?template=feature_request.yml">Ask for it</a>.
+</details>
+
+<details>
+<summary><b>Is it an ad blocker?</b></summary>
+<br>
+No. FlowZone only hides AI videos, AI channels and Shorts. It doesn't touch ads.
+</details>
+
+<details>
+<summary><b>How do I back up my channel lists?</b></summary>
+<br>
+Open <b>Manage channels</b> from the FlowZone popup. Your lists are plain text, so you can copy them out, back them up or share them.
+</details>
+
+## Private by design
+
+✅ No accounts &nbsp;·&nbsp; ✅ No servers &nbsp;·&nbsp; ✅ No tracking &nbsp;·&nbsp; ✅ Free
+
+Your settings and lists stay in your Chrome profile. To read YouTube's own AI label, FlowZone asks youtube.com for the video's public data, signed out, and sends nothing anywhere else. Read the [privacy policy](https://www.rigspark.si/flowzone/privacy/).
+
+Everything in this repo is public, so please keep personal information out of issues.
+
+---
+
+<div align="center">
+
+<img src="https://avatars.githubusercontent.com/in/5662828?s=88" width="44" height="44" alt="RigSpark logo">
+
+**Built with [RigSpark](https://www.rigspark.si)**<br>
+Made by one engineer and Byte, the RigSpark coder. Commits are co-authored by rigspark[bot].
+
+[How we triage issues](CONTRIBUTING.md) · [MIT License](LICENSE)
+
+</div>
