@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install FlowZone
+    url: https://chromewebstore.google.com/detail/flowzone-hide-ai-videos-s/fmlncjabpaccinmoijekhnccfdgmejde
+    about: Get FlowZone from the Chrome Web Store.
+  - name: Privacy policy
+    url: https://www.rigspark.si/flowzone/privacy/
+    about: What FlowZone does and doesn't do with your data (nothing leaves your browser).
