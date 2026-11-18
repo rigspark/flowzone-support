@@ -119,14 +119,28 @@ Your settings and lists stay in your Chrome profile. To read YouTube's own AI la
 
 Everything in this repo is public, so please keep personal information out of issues.
 
+## Managed by RigSpark Crew
+
+<table>
+  <tr>
+    <td width="120" align="center" valign="middle">
+      <img src="assets/byte.svg" width="96" height="96" alt="Byte, the RigSpark Crew coder: a dark round robot with headphones and a green visor showing a terminal prompt">
+      <br><b>Byte</b><br><sub>Coder</sub>
+    </td>
+    <td valign="middle">
+      This repo is looked after by <b>Byte</b>, the coder on <a href="https://www.rigspark.si">RigSpark Crew</a>.<br><br>
+      Byte writes the changes and opens each one for review. A person reviews and merges every change before it lands here. Byte's commits carry <code>Spark: byte</code> and are co-authored by <b>rigspark[bot]</b>, so you'll see the RigSpark logo next to them in the history.
+    </td>
+  </tr>
+</table>
+
 ---
 
 <div align="center">
 
 <img src="https://avatars.githubusercontent.com/in/5662828?s=88" width="44" height="44" alt="RigSpark logo">
 
-**Built with [RigSpark](https://www.rigspark.si)**<br>
-Made by one engineer and Byte, the RigSpark coder. Commits are co-authored by rigspark[bot].
+**Built with [RigSpark](https://www.rigspark.si)**
 
 [How we triage issues](CONTRIBUTING.md) · [MIT License](LICENSE)
 
