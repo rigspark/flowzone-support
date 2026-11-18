@@ -1,0 +1,52 @@
+name: Channel report
+description: An AI channel FlowZone misses, or a real creator it hides by mistake.
+title: "[Channel] "
+labels: ["channel"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        FlowZone hides videos that **YouTube itself labels** as AI, plus channels that keep posting them. YouTube labels realistic AI content but not most animated AI, so some AI channels slip through. Reports like this help us decide what to catch next.
+
+        Tip: you can always hide a channel yourself with the ⊘ button, or keep one visible with **Never hide**.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - An AI channel that FlowZone doesn't hide
+        - A real creator that FlowZone hides by mistake
+    validations:
+      required: true
+  - type: input
+    id: channel
+    attributes:
+      label: Channel link
+      placeholder: https://www.youtube.com/@channel
+    validations:
+      required: true
+  - type: input
+    id: video
+    attributes:
+      label: Example video link
+      placeholder: https://www.youtube.com/watch?v=…
+    validations:
+      required: true
+  - type: dropdown
+    id: label
+    attributes:
+      label: Does YouTube show an "Altered or synthetic content" label on the video?
+      description: Look in the video description under "How this content was made".
+      options:
+        - "Yes"
+        - "No"
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you think it is (or isn't) AI?
+      placeholder: AI voiceover, AI visuals, mass uploads, the creator says so…
+    validations:
+      required: true

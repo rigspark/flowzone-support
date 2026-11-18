@@ -1,0 +1,49 @@
+name: Feature request
+description: Suggest a new feature or a change to FlowZone.
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please [search existing issues](https://github.com/rigspark/flowzone-support/issues?q=is%3Aissue) first. If it's already there, give it a 👍 instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem?
+      description: What bugs you about YouTube, or about FlowZone today?
+      placeholder: When I search for lectures, I still see…
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like FlowZone to do?
+      description: Describe the feature as you'd use it.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of FlowZone is this about?
+      options:
+        - Hiding AI videos
+        - AI channels
+        - Shorts
+        - Autoplay guard
+        - Blocking / never-hide channel lists
+        - Settings and popup
+        - Other browsers or devices
+        - Something new
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything you've tried instead?
+      description: Workarounds, other extensions, settings.
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Screenshots, example links or mockups help a lot.
